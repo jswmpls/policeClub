@@ -1,0 +1,22 @@
+.menu-card {
+  margin-top: 40px;
+  max-width: 521px;
+  border: 3px solid var(--text-color);
+  border-radius: var(--border);
+  padding: 36px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+
+    &-title {
+      text-align: start;
+    }
+  }
+}
+
+.menu-card:hover {
+  border: 3px solid var(--accent-color);
+}

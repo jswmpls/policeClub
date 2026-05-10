@@ -1,0 +1,33 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 64px 64px;
+
+  h1 {
+    margin-bottom: 40px;
+  }
+
+  &-info {
+    display: flex;
+    gap: 40px;
+
+    &__map {
+      width: 600px;
+      height: 300px;
+    }
+
+    &__descr {
+      text-align: start;
+      text-transform: none;
+
+      .pink-text {
+        text-transform: none;
+        font-size: 24px;
+        font-weight: 600;
+      }
+    }
+  }
+}

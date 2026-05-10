@@ -1,0 +1,86 @@
+:root {
+  --bg-color: #231f1e;
+  --text-color: #f7f7f7;
+  --accent-color: #f28eff;
+
+  --border: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 75%;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 80%;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 125%;
+  text-transform: uppercase;
+  padding: 16px 24px;
+  border: none;
+  border-radius: var(--border);
+  box-shadow: 0px 0px 10px var(--accent-color);
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.05);
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+.active {
+  color: var(--accent-color);
+}
+
+li {
+  font-size: 1.25em;
+  font-weight: 200;
+  line-height: 125%;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.pink-text {
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}

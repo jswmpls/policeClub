@@ -1,0 +1,11 @@
+.menu {
+  text-align: center;
+  margin-top: 64px;
+
+  &__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+  }
+}

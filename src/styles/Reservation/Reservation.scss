@@ -1,0 +1,22 @@
+.reservation {
+  text-align: center;
+  margin-top: 64px;
+
+  &-info {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    &__card {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+  }
+
+  button {
+    margin-top: 40px;
+  }
+}
