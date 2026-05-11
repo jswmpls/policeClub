@@ -31,3 +31,45 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  .contact {
+    &-info {
+      flex-direction: column;
+
+      &__descr {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 620px) {
+  .contact {
+    &-info {
+      &__map {
+        max-width: 500px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .contact {
+    &-info {
+      &__map {
+        max-width: 400px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .contact {
+    &-info {
+      &__map {
+        max-width: 350px;
+      }
+    }
+  }
+}

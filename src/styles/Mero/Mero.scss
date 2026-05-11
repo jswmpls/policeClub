@@ -14,3 +14,12 @@
     gap: 80px;
   }
 }
+
+@media (max-width: 1200px) {
+  .mero {
+    &__cards {
+      flex-direction: column;
+      gap: 40px;
+    }
+  }
+}
