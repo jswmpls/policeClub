@@ -4,7 +4,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 40px 55px;
+  margin: 20px 32px;
   gap: 120px;
   position: fixed;
   top: 0;
@@ -30,4 +30,52 @@
     flex-direction: row;
     gap: 3.75em;
   }
+}
+
+.burger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  margin: 16px;
+  display: flex;
+  border-radius: 25px;
+  background-color: var(--bg-color);
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+}
+
+.burger-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40px;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  img {
+    position: absolute;
+    top: 20px;
+    right: 36px;
+    max-width: 40px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1400px) {
 }
