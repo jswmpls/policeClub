@@ -9,3 +9,24 @@
     gap: 120px;
   }
 }
+
+@media (max-width: 1400px) {
+  .menu {
+    margin-top: 40px;
+
+    &__cards {
+      gap: 40px;
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+  .menu {
+    &__cards {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 16px;
+    }
+  }
+}
