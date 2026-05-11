@@ -6,7 +6,7 @@ import tg from "../../assets/icons/Telegram.svg";
 function Footer() {
   return (
     <div className="footer">
-      <p>Police Club 2026</p>
+      <p>© Все права защищены "Police Club" 2026</p>
       <div className="footer-socials">
         <a href="https://t.me/police_family">
           <img src={tg} alt="tg" />
