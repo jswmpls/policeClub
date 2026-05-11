@@ -4,6 +4,7 @@ import Banner from "./components/Banner/Banner";
 import Reservation from "./components/Reservation/Reservation";
 import Mero from "./components/Mero/Mero";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import "./styles/app.scss";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <div id="contacts">
         <Contact />
       </div>
+      <Footer />
     </>
   );
 }

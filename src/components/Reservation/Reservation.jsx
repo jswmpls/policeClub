@@ -24,7 +24,9 @@ function Reservation() {
           />
         </div>
       </div>
-      <button>Забронировать</button>
+      <button>
+        <a href="tel:+7(906)-257-47-97">Забронировать</a>
+      </button>
     </div>
   );
 }

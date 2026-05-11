@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32px;
+
+  &-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}

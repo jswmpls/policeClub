@@ -3,6 +3,8 @@ import logo from "../../assets/icons/logo.png";
 import menu from "../../assets/icons/Menu.svg";
 import close from "../../assets/icons/Close.svg";
 import "../../styles/Header/Header.scss";
+import vk from "../../assets/icons/VK com.svg";
+import tg from "../../assets/icons/Telegram.svg";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -83,6 +85,14 @@ function Header() {
                   </li>
                 </ul>
               </nav>
+              <div className="burger-socials">
+                <a href="https://t.me/police_family">
+                  <img src={tg} alt="tg" />
+                </a>
+                <a href="https://vk.com/policeclubspb">
+                  <img src={vk} alt="vk" />
+                </a>
+              </div>
               <img src={close} alt="close" onClick={handleCloseMenu} />
             </div>
           )}
